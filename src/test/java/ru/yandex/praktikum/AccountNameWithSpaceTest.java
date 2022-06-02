@@ -25,6 +25,7 @@ public class AccountNameWithSpaceTest {
         };
     }
 
+
     @Test
     public void checkSpaceInName() {
         Account account = new Account(nameWithSpace);
