@@ -6,8 +6,8 @@ import org.junit.runners.Parameterized;
 
 @RunWith(Parameterized.class)
 public class AccountNameTest {
-     String name;
-    boolean expected;
+    private final String name;
+    private final boolean expected;
 
     public AccountNameTest(String name, boolean expected) {
         this.name = name;
